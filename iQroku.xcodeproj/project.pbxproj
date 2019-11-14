@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250C867D231A580400618CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250C867F231A580400618CCB /* Main.storyboard */; };
+		250C868A231A595000618CCB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250C868C231A595000618CCB /* Localizable.strings */; };
+		250C8696231A5E2600618CCB /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C8695231A5E2500618CCB /* LocalizationSystem.swift */; };
+		250C86A7231F1D9500618CCB /* Iqro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250C86A4231F1D9500618CCB /* Iqro.storyboard */; };
+		250C86A8231F1D9500618CCB /* IqroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C86A5231F1D9500618CCB /* IqroPresenter.swift */; };
+		250C86A9231F1D9500618CCB /* IqroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C86A6231F1D9500618CCB /* IqroViewController.swift */; };
+		250C86AD231FF57700618CCB /* IqroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C86AB231FF57700618CCB /* IqroCell.swift */; };
+		250C86AE231FF57700618CCB /* IqroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250C86AC231FF57700618CCB /* IqroCell.xib */; };
+		250F9D3323215D0000F3CF0F /* IqroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F9D3023215D0000F3CF0F /* IqroDetailPresenter.swift */; };
+		250F9D3423215D0000F3CF0F /* IqroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F9D3123215D0000F3CF0F /* IqroDetailViewController.swift */; };
+		25124CBF231176C3001E229A /* ColourConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25124CBE231176C3001E229A /* ColourConstants.swift */; };
+		25124CC223147C48001E229A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25124CC023147C47001E229A /* LoadingView.swift */; };
+		25124CC323147C48001E229A /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25124CC123147C47001E229A /* LoadingView.xib */; };
+		25124CC6231492BE001E229A /* MainSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25124CC5231492BE001E229A /* MainSection.swift */; };
+		2512E71E22F3A6CE00D5010C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512E71D22F3A6CE00D5010C /* AppDelegate.swift */; };
+		2512E72822F3A6D100D5010C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2512E72722F3A6D100D5010C /* Assets.xcassets */; };
+		2512E72B22F3A6D100D5010C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2512E72922F3A6D100D5010C /* LaunchScreen.storyboard */; };
+		2512E73922F3A97700D5010C /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512E73622F3A97700D5010C /* MainPresenter.swift */; };
+		2512E73A22F3A97700D5010C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512E73722F3A97700D5010C /* MainViewController.swift */; };
+		251688D9232BDF8300126558 /* WriteHijaiyahCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251688D7232BDF8300126558 /* WriteHijaiyahCell.swift */; };
+		251688DA232BDF8400126558 /* WriteHijaiyahCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251688D8232BDF8300126558 /* WriteHijaiyahCell.xib */; };
+		251688DF232FD87D00126558 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251688DD232FD87C00126558 /* Brush.swift */; };
+		251688E0232FD87D00126558 /* SwiftyDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251688DE232FD87D00126558 /* SwiftyDraw.swift */; };
+		251688E2232FD9A700126558 /* UIView+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251688E1232FD9A700126558 /* UIView+Draw.swift */; };
+		2519F621232686AA005DF4D9 /* JuzAmma.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519F61E232686AA005DF4D9 /* JuzAmma.storyboard */; };
+		2519F622232686AA005DF4D9 /* JuzAmmaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F61F232686AA005DF4D9 /* JuzAmmaPresenter.swift */; };
+		2519F623232686AA005DF4D9 /* JuzAmmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F620232686AA005DF4D9 /* JuzAmmaViewController.swift */; };
+		2519F62823268933005DF4D9 /* JuzAmmaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F62623268933005DF4D9 /* JuzAmmaCell.swift */; };
+		2519F62923268933005DF4D9 /* JuzAmmaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2519F62723268933005DF4D9 /* JuzAmmaCell.xib */; };
+		2519F62E232938AD005DF4D9 /* JuzAmmaDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519F62B232938AD005DF4D9 /* JuzAmmaDetail.storyboard */; };
+		2519F62F232938AD005DF4D9 /* JuzAmmaDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F62C232938AD005DF4D9 /* JuzAmmaDetailPresenter.swift */; };
+		2519F630232938AD005DF4D9 /* JuzAmmaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F62D232938AD005DF4D9 /* JuzAmmaDetailViewController.swift */; };
+		2519F63423293D10005DF4D9 /* JuzAmmaDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F63223293D10005DF4D9 /* JuzAmmaDetailCell.swift */; };
+		2519F63523293D10005DF4D9 /* JuzAmmaDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2519F63323293D10005DF4D9 /* JuzAmmaDetailCell.xib */; };
+		2519F63A232AF98A005DF4D9 /* WriteHijaiyah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519F637232AF989005DF4D9 /* WriteHijaiyah.storyboard */; };
+		2519F63B232AF98A005DF4D9 /* WriteHijaiyahPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F638232AF989005DF4D9 /* WriteHijaiyahPresenter.swift */; };
+		2519F63C232AF98A005DF4D9 /* WriteHijaiyahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519F639232AF98A005DF4D9 /* WriteHijaiyahViewController.swift */; };
+		2519F63F232B0371005DF4D9 /* Quite Magical - TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2519F63E232B035D005DF4D9 /* Quite Magical - TTF.ttf */; };
+		2526ADF22348DD84003C79BF /* CustomPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526ADF12348DD84003C79BF /* CustomPopup.swift */; };
+		2526ADF42348DE8A003C79BF /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526ADF32348DE8A003C79BF /* UIView+Nib.swift */; };
+		2526ADF62348E069003C79BF /* Object+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526ADF52348E069003C79BF /* Object+ClassName.swift */; };
+		2526AE08234D30B4003C79BF /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526AE07234D30B4003C79BF /* config.swift */; };
+		2542E6072335C91800CAA895 /* SayHijaiyah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2542E6042335C91800CAA895 /* SayHijaiyah.storyboard */; };
+		2542E6082335C91800CAA895 /* SayHijaiyahPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542E6052335C91800CAA895 /* SayHijaiyahPresenter.swift */; };
+		2542E6092335C91800CAA895 /* SayHijaiyahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542E6062335C91800CAA895 /* SayHijaiyahViewController.swift */; };
+		2542E6112336061300CAA895 /* SayHijaiyahCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542E60F2336061300CAA895 /* SayHijaiyahCell.swift */; };
+		2542E6122336061300CAA895 /* SayHijaiyahCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2542E6102336061300CAA895 /* SayHijaiyahCell.xib */; };
+		2542E6142336480700CAA895 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2542E6132336480600CAA895 /* AVFoundation.framework */; };
+		256E89AE2355209200A9D192 /* iqroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E89AD2355209200A9D192 /* iqroPage.swift */; };
+		256E89B5235A049D00A9D192 /* IqroDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256E89B7235A049D00A9D192 /* IqroDetail.storyboard */; };
+		256E89C5235A058A00A9D192 /* IqroDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F9D362325E3D900F3CF0F /* IqroDetailCell.swift */; };
+		256E89CA235A071100A9D192 /* IqroDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256E89CC235A071100A9D192 /* IqroDetailCell.xib */; };
+		256E89CF235A075800A9D192 /* CustomPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256E89D1235A075800A9D192 /* CustomPopup.xib */; };
+		258F6E392300531E001E341E /* SegueConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F6E382300531E001E341E /* SegueConstants.swift */; };
+		258F6E3D23005401001E341E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F6E3C23005401001E341E /* BaseViewController.swift */; };
+		258F6E3F2300543B001E341E /* BasePagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F6E3E2300543B001E341E /* BasePagination.swift */; };
+		258F6E4123005466001E341E /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F6E4023005466001E341E /* BaseDAO.swift */; };
+		258F6E432300547F001E341E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258F6E422300547F001E341E /* Default-568h@2x.png */; };
+		258F6E4E230059F0001E341E /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F6E4C230059F0001E341E /* MainCell.swift */; };
+		258F6E4F230059F0001E341E /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258F6E4D230059F0001E341E /* MainCell.xib */; };
+		259B35F2233BC06600B9B515 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259B35E5233BC05200B9B515 /* SQLite.framework */; };
+		259B35F3233BC06600B9B515 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 259B35E5233BC05200B9B515 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		259B360A233EB3B300B9B515 /* IqrokuDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3609233EB3B300B9B515 /* IqrokuDB.swift */; };
+		259B360E233ED05B00B9B515 /* iqrokuDB.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 259B360C233EBE8D00B9B515 /* iqrokuDB.sqlite3 */; };
+		259B361723404BAF00B9B515 /* Iqro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B361623404BAF00B9B515 /* Iqro.swift */; };
+		25F59916233663AC00089511 /* sound-hijaiyah-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59915233663AC00089511 /* sound-hijaiyah-1.mp3 */; };
+		25F59918233663F100089511 /* sound-hijaiyah-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59917233663F100089511 /* sound-hijaiyah-2.mp3 */; };
+		25F5991A2336641100089511 /* sound-hijaiyah-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599192336641100089511 /* sound-hijaiyah-3.mp3 */; };
+		25F5991C233664DC00089511 /* sound-hijaiyah-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5991B233664DB00089511 /* sound-hijaiyah-4.mp3 */; };
+		25F5991E2336650800089511 /* sound-hijaiyah-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5991D2336650800089511 /* sound-hijaiyah-5.mp3 */; };
+		25F599202336653000089511 /* sound-hijaiyah-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5991F2336653000089511 /* sound-hijaiyah-6.mp3 */; };
+		25F599222336654900089511 /* sound-hijaiyah-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599212336654900089511 /* sound-hijaiyah-7.mp3 */; };
+		25F599242336658F00089511 /* sound-hijaiyah-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599232336658F00089511 /* sound-hijaiyah-8.mp3 */; };
+		25F59926233665A400089511 /* sound-hijaiyah-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59925233665A400089511 /* sound-hijaiyah-9.mp3 */; };
+		25F59928233665B200089511 /* sound-hijaiyah-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59927233665B200089511 /* sound-hijaiyah-10.mp3 */; };
+		25F5992A233665C600089511 /* sound-hijaiyah-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59929233665C500089511 /* sound-hijaiyah-11.mp3 */; };
+		25F5992C233665D800089511 /* sound-hijaiyah-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5992B233665D800089511 /* sound-hijaiyah-12.mp3 */; };
+		25F599302336676B00089511 /* sound-hijaiyah-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5992F2336676A00089511 /* sound-hijaiyah-13.mp3 */; };
+		25F59932233667DC00089511 /* sound-hijaiyah-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59931233667DC00089511 /* sound-hijaiyah-14.mp3 */; };
+		25F59934233667FF00089511 /* sound-hijaiyah-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59933233667FF00089511 /* sound-hijaiyah-15.mp3 */; };
+		25F599362336681800089511 /* sound-hijaiyah-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599352336681800089511 /* sound-hijaiyah-16.mp3 */; };
+		25F59938233668F000089511 /* sound-hijaiyah-17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59937233668F000089511 /* sound-hijaiyah-17.mp3 */; };
+		25F5993A2336690700089511 /* sound-hijaiyah-18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599392336690700089511 /* sound-hijaiyah-18.mp3 */; };
+		25F5993C2336692C00089511 /* sound-hijaiyah-19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5993B2336692C00089511 /* sound-hijaiyah-19.mp3 */; };
+		25F5993E2336694000089511 /* sound-hijaiyah-20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5993D2336694000089511 /* sound-hijaiyah-20.mp3 */; };
+		25F599402336697600089511 /* sound-hijaiyah-21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5993F2336697600089511 /* sound-hijaiyah-21.mp3 */; };
+		25F599422336698700089511 /* sound-hijaiyah-22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F599412336698700089511 /* sound-hijaiyah-22.mp3 */; };
+		25F59944233669A000089511 /* sound-hijaiyah-23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59943233669A000089511 /* sound-hijaiyah-23.mp3 */; };
+		25F59946233669B600089511 /* sound-hijaiyah-24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59945233669B600089511 /* sound-hijaiyah-24.mp3 */; };
+		25F59948233669C200089511 /* sound-hijaiyah-25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59947233669C200089511 /* sound-hijaiyah-25.mp3 */; };
+		25F5994A233669D800089511 /* sound-hijaiyah-26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F59949233669D800089511 /* sound-hijaiyah-26.mp3 */; };
+		25F5994C233669F600089511 /* sound-hijaiyah-27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5994B233669F500089511 /* sound-hijaiyah-27.mp3 */; };
+		25F5994E23366A1000089511 /* sound-hijaiyah-28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F5994D23366A0F00089511 /* sound-hijaiyah-28.mp3 */; };
+		25F5995323381C6D00089511 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F5995023381C6D00089511 /* Settings.storyboard */; };
+		25F5995423381C6D00089511 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5995123381C6D00089511 /* SettingsPresenter.swift */; };
+		25F5995523381C6D00089511 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5995223381C6D00089511 /* SettingsViewController.swift */; };
+		B50C7E8B23D188304EBD48D3 /* Pods_iQroku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BE84AEF9E22E348C2630DB /* Pods_iQroku.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259B35E4233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		259B35E6233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		259B35E8233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		259B35EA233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		259B35EC233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		259B35EE233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		259B35F0233BC05200B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		259B35F4233BC06600B9B515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		259B35C1233BBEDA00B9B515 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				259B35F3233BC06600B9B515 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		250C868B231A595000618CCB /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		250C868D231A595200618CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		250C868F231A5B3300618CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		250C8691231A5B7200618CCB /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
+		250C8692231A5B7900618CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		250C8694231A5B8700618CCB /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		250C8695231A5E2500618CCB /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		250C86A4231F1D9500618CCB /* Iqro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Iqro.storyboard; sourceTree = "<group>"; };
+		250C86A5231F1D9500618CCB /* IqroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroPresenter.swift; sourceTree = "<group>"; };
+		250C86A6231F1D9500618CCB /* IqroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroViewController.swift; sourceTree = "<group>"; };
+		250C86AB231FF57700618CCB /* IqroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroCell.swift; sourceTree = "<group>"; };
+		250C86AC231FF57700618CCB /* IqroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IqroCell.xib; sourceTree = "<group>"; };
+		250F9D3023215D0000F3CF0F /* IqroDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroDetailPresenter.swift; sourceTree = "<group>"; };
+		250F9D3123215D0000F3CF0F /* IqroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroDetailViewController.swift; sourceTree = "<group>"; };
+		250F9D362325E3D900F3CF0F /* IqroDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqroDetailCell.swift; sourceTree = "<group>"; };
+		25124CBE231176C3001E229A /* ColourConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourConstants.swift; sourceTree = "<group>"; };
+		25124CC023147C47001E229A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		25124CC123147C47001E229A /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		25124CC5231492BE001E229A /* MainSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSection.swift; sourceTree = "<group>"; };
+		2512E71A22F3A6CE00D5010C /* iQroku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQroku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2512E71D22F3A6CE00D5010C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2512E72722F3A6D100D5010C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2512E72C22F3A6D100D5010C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2512E73622F3A97700D5010C /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		2512E73722F3A97700D5010C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		251688D7232BDF8300126558 /* WriteHijaiyahCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteHijaiyahCell.swift; sourceTree = "<group>"; };
+		251688D8232BDF8300126558 /* WriteHijaiyahCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WriteHijaiyahCell.xib; sourceTree = "<group>"; };
+		251688DD232FD87C00126558 /* Brush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
+		251688DE232FD87D00126558 /* SwiftyDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyDraw.swift; sourceTree = "<group>"; };
+		251688E1232FD9A700126558 /* UIView+Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Draw.swift"; sourceTree = "<group>"; };
+		2519F61E232686AA005DF4D9 /* JuzAmma.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JuzAmma.storyboard; sourceTree = "<group>"; };
+		2519F61F232686AA005DF4D9 /* JuzAmmaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaPresenter.swift; sourceTree = "<group>"; };
+		2519F620232686AA005DF4D9 /* JuzAmmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaViewController.swift; sourceTree = "<group>"; };
+		2519F62623268933005DF4D9 /* JuzAmmaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaCell.swift; sourceTree = "<group>"; };
+		2519F62723268933005DF4D9 /* JuzAmmaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JuzAmmaCell.xib; sourceTree = "<group>"; };
+		2519F62B232938AD005DF4D9 /* JuzAmmaDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JuzAmmaDetail.storyboard; sourceTree = "<group>"; };
+		2519F62C232938AD005DF4D9 /* JuzAmmaDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaDetailPresenter.swift; sourceTree = "<group>"; };
+		2519F62D232938AD005DF4D9 /* JuzAmmaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaDetailViewController.swift; sourceTree = "<group>"; };
+		2519F63223293D10005DF4D9 /* JuzAmmaDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzAmmaDetailCell.swift; sourceTree = "<group>"; };
+		2519F63323293D10005DF4D9 /* JuzAmmaDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JuzAmmaDetailCell.xib; sourceTree = "<group>"; };
+		2519F637232AF989005DF4D9 /* WriteHijaiyah.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WriteHijaiyah.storyboard; sourceTree = "<group>"; };
+		2519F638232AF989005DF4D9 /* WriteHijaiyahPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteHijaiyahPresenter.swift; sourceTree = "<group>"; };
+		2519F639232AF98A005DF4D9 /* WriteHijaiyahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteHijaiyahViewController.swift; sourceTree = "<group>"; };
+		2519F63E232B035D005DF4D9 /* Quite Magical - TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quite Magical - TTF.ttf"; sourceTree = "<group>"; };
+		2526ADF12348DD84003C79BF /* CustomPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopup.swift; sourceTree = "<group>"; };
+		2526ADF32348DE8A003C79BF /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		2526ADF52348E069003C79BF /* Object+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Object+ClassName.swift"; sourceTree = "<group>"; };
+		2526AE07234D30B4003C79BF /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		2542E6042335C91800CAA895 /* SayHijaiyah.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SayHijaiyah.storyboard; sourceTree = "<group>"; };
+		2542E6052335C91800CAA895 /* SayHijaiyahPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHijaiyahPresenter.swift; sourceTree = "<group>"; };
+		2542E6062335C91800CAA895 /* SayHijaiyahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHijaiyahViewController.swift; sourceTree = "<group>"; };
+		2542E60F2336061300CAA895 /* SayHijaiyahCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHijaiyahCell.swift; sourceTree = "<group>"; };
+		2542E6102336061300CAA895 /* SayHijaiyahCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SayHijaiyahCell.xib; sourceTree = "<group>"; };
+		2542E6132336480600CAA895 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		256E89AD2355209200A9D192 /* iqroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iqroPage.swift; sourceTree = "<group>"; };
+		256E89B8235A04A700A9D192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IqroDetail.storyboard; sourceTree = "<group>"; };
+		256E89BA235A04EB00A9D192 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/IqroDetail.strings; sourceTree = "<group>"; };
+		256E89CD235A071E00A9D192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/IqroDetailCell.xib; sourceTree = "<group>"; };
+		256E89CE235A073600A9D192 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/IqroDetailCell.strings; sourceTree = "<group>"; };
+		256E89D2235A075F00A9D192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomPopup.xib; sourceTree = "<group>"; };
+		256E89D3235A076F00A9D192 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/CustomPopup.strings; sourceTree = "<group>"; };
+		258F6E382300531E001E341E /* SegueConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueConstants.swift; sourceTree = "<group>"; };
+		258F6E3C23005401001E341E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		258F6E3E2300543B001E341E /* BasePagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePagination.swift; sourceTree = "<group>"; };
+		258F6E4023005466001E341E /* BaseDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDAO.swift; sourceTree = "<group>"; };
+		258F6E422300547F001E341E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		258F6E4C230059F0001E341E /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCell.swift; path = ../../../../../../Documents/MainCell.swift; sourceTree = "<group>"; };
+		258F6E4D230059F0001E341E /* MainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainCell.xib; path = ../../../../../../Documents/MainCell.xib; sourceTree = "<group>"; };
+		259B35DA233BC05200B9B515 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		259B3609233EB3B300B9B515 /* IqrokuDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IqrokuDB.swift; sourceTree = "<group>"; };
+		259B360C233EBE8D00B9B515 /* iqrokuDB.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = iqrokuDB.sqlite3; path = DB/iqrokuDB.sqlite3; sourceTree = SOURCE_ROOT; };
+		259B361623404BAF00B9B515 /* Iqro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iqro.swift; sourceTree = "<group>"; };
+		25F59915233663AC00089511 /* sound-hijaiyah-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-1.mp3"; sourceTree = "<group>"; };
+		25F59917233663F100089511 /* sound-hijaiyah-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-2.mp3"; sourceTree = "<group>"; };
+		25F599192336641100089511 /* sound-hijaiyah-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-3.mp3"; sourceTree = "<group>"; };
+		25F5991B233664DB00089511 /* sound-hijaiyah-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-4.mp3"; sourceTree = "<group>"; };
+		25F5991D2336650800089511 /* sound-hijaiyah-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-5.mp3"; sourceTree = "<group>"; };
+		25F5991F2336653000089511 /* sound-hijaiyah-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-6.mp3"; sourceTree = "<group>"; };
+		25F599212336654900089511 /* sound-hijaiyah-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-7.mp3"; sourceTree = "<group>"; };
+		25F599232336658F00089511 /* sound-hijaiyah-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-8.mp3"; sourceTree = "<group>"; };
+		25F59925233665A400089511 /* sound-hijaiyah-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-9.mp3"; sourceTree = "<group>"; };
+		25F59927233665B200089511 /* sound-hijaiyah-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-10.mp3"; sourceTree = "<group>"; };
+		25F59929233665C500089511 /* sound-hijaiyah-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-11.mp3"; sourceTree = "<group>"; };
+		25F5992B233665D800089511 /* sound-hijaiyah-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-12.mp3"; sourceTree = "<group>"; };
+		25F5992F2336676A00089511 /* sound-hijaiyah-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-13.mp3"; sourceTree = "<group>"; };
+		25F59931233667DC00089511 /* sound-hijaiyah-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-14.mp3"; sourceTree = "<group>"; };
+		25F59933233667FF00089511 /* sound-hijaiyah-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-15.mp3"; sourceTree = "<group>"; };
+		25F599352336681800089511 /* sound-hijaiyah-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-16.mp3"; sourceTree = "<group>"; };
+		25F59937233668F000089511 /* sound-hijaiyah-17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-17.mp3"; sourceTree = "<group>"; };
+		25F599392336690700089511 /* sound-hijaiyah-18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-18.mp3"; sourceTree = "<group>"; };
+		25F5993B2336692C00089511 /* sound-hijaiyah-19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-19.mp3"; sourceTree = "<group>"; };
+		25F5993D2336694000089511 /* sound-hijaiyah-20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-20.mp3"; sourceTree = "<group>"; };
+		25F5993F2336697600089511 /* sound-hijaiyah-21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-21.mp3"; sourceTree = "<group>"; };
+		25F599412336698700089511 /* sound-hijaiyah-22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-22.mp3"; sourceTree = "<group>"; };
+		25F59943233669A000089511 /* sound-hijaiyah-23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-23.mp3"; sourceTree = "<group>"; };
+		25F59945233669B600089511 /* sound-hijaiyah-24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-24.mp3"; sourceTree = "<group>"; };
+		25F59947233669C200089511 /* sound-hijaiyah-25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-25.mp3"; sourceTree = "<group>"; };
+		25F59949233669D800089511 /* sound-hijaiyah-26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-26.mp3"; sourceTree = "<group>"; };
+		25F5994B233669F500089511 /* sound-hijaiyah-27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-27.mp3"; sourceTree = "<group>"; };
+		25F5994D23366A0F00089511 /* sound-hijaiyah-28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-hijaiyah-28.mp3"; sourceTree = "<group>"; };
+		25F5995023381C6D00089511 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		25F5995123381C6D00089511 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		25F5995223381C6D00089511 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		647AB3BB8E7F47A7A1FCD44C /* Pods-iQroku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQroku.release.xcconfig"; path = "Target Support Files/Pods-iQroku/Pods-iQroku.release.xcconfig"; sourceTree = "<group>"; };
+		68BE84AEF9E22E348C2630DB /* Pods_iQroku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQroku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB18BAD4EA05AF15403C9CA /* Pods-iQroku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQroku.debug.xcconfig"; path = "Target Support Files/Pods-iQroku/Pods-iQroku.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2512E71722F3A6CE00D5010C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2542E6142336480700CAA895 /* AVFoundation.framework in Frameworks */,
+				B50C7E8B23D188304EBD48D3 /* Pods_iQroku.framework in Frameworks */,
+				259B35F2233BC06600B9B515 /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250C8687231A591300618CCB /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				250C8695231A5E2500618CCB /* LocalizationSystem.swift */,
+				250C868C231A595000618CCB /* Localizable.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		250C869A231B470300618CCB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				251688E1232FD9A700126558 /* UIView+Draw.swift */,
+				2526ADF32348DE8A003C79BF /* UIView+Nib.swift */,
+				2526ADF52348E069003C79BF /* Object+ClassName.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		250C86A3231F1D7600618CCB /* Iqro */ = {
+			isa = PBXGroup;
+			children = (
+				250C86AF231FF59200618CCB /* Main */,
+				250C86B0231FF5A400618CCB /* Detail */,
+			);
+			path = Iqro;
+			sourceTree = "<group>";
+		};
+		250C86AA231FF4DD00618CCB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				250C86AB231FF57700618CCB /* IqroCell.swift */,
+				250C86AC231FF57700618CCB /* IqroCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		250C86AF231FF59200618CCB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				250C86AA231FF4DD00618CCB /* Cell */,
+				250C86A4231F1D9500618CCB /* Iqro.storyboard */,
+				250C86A5231F1D9500618CCB /* IqroPresenter.swift */,
+				250C86A6231F1D9500618CCB /* IqroViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		250C86B0231FF5A400618CCB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2526ADE72348DC9C003C79BF /* Popup */,
+				250F9D352325E39800F3CF0F /* Cell */,
+				256E89B7235A049D00A9D192 /* IqroDetail.storyboard */,
+				250F9D3023215D0000F3CF0F /* IqroDetailPresenter.swift */,
+				250F9D3123215D0000F3CF0F /* IqroDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		250F9D352325E39800F3CF0F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				250F9D362325E3D900F3CF0F /* IqroDetailCell.swift */,
+				256E89CC235A071100A9D192 /* IqroDetailCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		25124CC423149281001E229A /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				25124CC5231492BE001E229A /* MainSection.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		2512E71122F3A6CE00D5010C = {
+			isa = PBXGroup;
+			children = (
+				258F6E422300547F001E341E /* Default-568h@2x.png */,
+				2512E71C22F3A6CE00D5010C /* iQroku */,
+				2512E71B22F3A6CE00D5010C /* Products */,
+				259B35DA233BC05200B9B515 /* SQLite.xcodeproj */,
+				F1ED29910165678F315BB556 /* Pods */,
+				D186D04A7CEB09C14476A919 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2512E71B22F3A6CE00D5010C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2512E71A22F3A6CE00D5010C /* iQroku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2512E71C22F3A6CE00D5010C /* iQroku */ = {
+			isa = PBXGroup;
+			children = (
+				259B361523404B9300B9B515 /* Models */,
+				259B360B233EBE6300B9B515 /* DB */,
+				259B35F7233C112B00B9B515 /* SQLite */,
+				2542E6152336579200CAA895 /* Sound */,
+				250C869A231B470300618CCB /* Extension */,
+				250C8687231A591300618CCB /* Language */,
+				25124CC423149281001E229A /* Enumerations */,
+				2512E71D22F3A6CE00D5010C /* AppDelegate.swift */,
+				258F6E37230052FD001E341E /* Constants */,
+				2512E73322F3A93300D5010C /* Modules */,
+				258F6E3A23005394001E341E /* SupportFiles */,
+				2519F63D232B02F9005DF4D9 /* Resources */,
+			);
+			path = iQroku;
+			sourceTree = "<group>";
+		};
+		2512E73322F3A93300D5010C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2512E73422F3A96600D5010C /* Main */,
+				250C86A3231F1D7600618CCB /* Iqro */,
+				2519F61D23268683005DF4D9 /* JuzAmma */,
+				2519F636232AF911005DF4D9 /* WriteHijaiyah */,
+				2542E6032335C8FA00CAA895 /* SayHijaiyah */,
+				25F5994F23381C4F00089511 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2512E73422F3A96600D5010C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				258F6E4B230059C6001E341E /* Cell */,
+				250C867F231A580400618CCB /* Main.storyboard */,
+				2512E73622F3A97700D5010C /* MainPresenter.swift */,
+				2512E73722F3A97700D5010C /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		251688D6232BDF5500126558 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				251688D7232BDF8300126558 /* WriteHijaiyahCell.swift */,
+				251688D8232BDF8300126558 /* WriteHijaiyahCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		251688DB232FD85100126558 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2519F63E232B035D005DF4D9 /* Quite Magical - TTF.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		251688DC232FD85800126558 /* SwiftyDraw */ = {
+			isa = PBXGroup;
+			children = (
+				251688DD232FD87C00126558 /* Brush.swift */,
+				251688DE232FD87D00126558 /* SwiftyDraw.swift */,
+			);
+			path = SwiftyDraw;
+			sourceTree = "<group>";
+		};
+		2519F61D23268683005DF4D9 /* JuzAmma */ = {
+			isa = PBXGroup;
+			children = (
+				2519F624232688EE005DF4D9 /* Main */,
+				2519F625232688FB005DF4D9 /* Detail */,
+			);
+			path = JuzAmma;
+			sourceTree = "<group>";
+		};
+		2519F624232688EE005DF4D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2519F62A2326893A005DF4D9 /* Cell */,
+				2519F61E232686AA005DF4D9 /* JuzAmma.storyboard */,
+				2519F61F232686AA005DF4D9 /* JuzAmmaPresenter.swift */,
+				2519F620232686AA005DF4D9 /* JuzAmmaViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2519F625232688FB005DF4D9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2519F63123293CE7005DF4D9 /* Cell */,
+				2519F62B232938AD005DF4D9 /* JuzAmmaDetail.storyboard */,
+				2519F62C232938AD005DF4D9 /* JuzAmmaDetailPresenter.swift */,
+				2519F62D232938AD005DF4D9 /* JuzAmmaDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		2519F62A2326893A005DF4D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2519F62623268933005DF4D9 /* JuzAmmaCell.swift */,
+				2519F62723268933005DF4D9 /* JuzAmmaCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2519F63123293CE7005DF4D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2519F63223293D10005DF4D9 /* JuzAmmaDetailCell.swift */,
+				2519F63323293D10005DF4D9 /* JuzAmmaDetailCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2519F636232AF911005DF4D9 /* WriteHijaiyah */ = {
+			isa = PBXGroup;
+			children = (
+				251688D6232BDF5500126558 /* Cell */,
+				2519F637232AF989005DF4D9 /* WriteHijaiyah.storyboard */,
+				2519F638232AF989005DF4D9 /* WriteHijaiyahPresenter.swift */,
+				2519F639232AF98A005DF4D9 /* WriteHijaiyahViewController.swift */,
+			);
+			path = WriteHijaiyah;
+			sourceTree = "<group>";
+		};
+		2519F63D232B02F9005DF4D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				251688DC232FD85800126558 /* SwiftyDraw */,
+				251688DB232FD85100126558 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2526ADE72348DC9C003C79BF /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				256E89D1235A075800A9D192 /* CustomPopup.xib */,
+				2526ADF12348DD84003C79BF /* CustomPopup.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		2542E6032335C8FA00CAA895 /* SayHijaiyah */ = {
+			isa = PBXGroup;
+			children = (
+				2542E60A2335D32700CAA895 /* Cell */,
+				2542E6042335C91800CAA895 /* SayHijaiyah.storyboard */,
+				2542E6052335C91800CAA895 /* SayHijaiyahPresenter.swift */,
+				2542E6062335C91800CAA895 /* SayHijaiyahViewController.swift */,
+			);
+			path = SayHijaiyah;
+			sourceTree = "<group>";
+		};
+		2542E60A2335D32700CAA895 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2542E60F2336061300CAA895 /* SayHijaiyahCell.swift */,
+				2542E6102336061300CAA895 /* SayHijaiyahCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2542E6152336579200CAA895 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				25F5994D23366A0F00089511 /* sound-hijaiyah-28.mp3 */,
+				25F5994B233669F500089511 /* sound-hijaiyah-27.mp3 */,
+				25F59949233669D800089511 /* sound-hijaiyah-26.mp3 */,
+				25F59947233669C200089511 /* sound-hijaiyah-25.mp3 */,
+				25F59945233669B600089511 /* sound-hijaiyah-24.mp3 */,
+				25F59943233669A000089511 /* sound-hijaiyah-23.mp3 */,
+				25F599412336698700089511 /* sound-hijaiyah-22.mp3 */,
+				25F5993F2336697600089511 /* sound-hijaiyah-21.mp3 */,
+				25F5993D2336694000089511 /* sound-hijaiyah-20.mp3 */,
+				25F5993B2336692C00089511 /* sound-hijaiyah-19.mp3 */,
+				25F599392336690700089511 /* sound-hijaiyah-18.mp3 */,
+				25F59937233668F000089511 /* sound-hijaiyah-17.mp3 */,
+				25F599352336681800089511 /* sound-hijaiyah-16.mp3 */,
+				25F59933233667FF00089511 /* sound-hijaiyah-15.mp3 */,
+				25F59931233667DC00089511 /* sound-hijaiyah-14.mp3 */,
+				25F5992F2336676A00089511 /* sound-hijaiyah-13.mp3 */,
+				25F5992B233665D800089511 /* sound-hijaiyah-12.mp3 */,
+				25F59929233665C500089511 /* sound-hijaiyah-11.mp3 */,
+				25F59927233665B200089511 /* sound-hijaiyah-10.mp3 */,
+				25F59925233665A400089511 /* sound-hijaiyah-9.mp3 */,
+				25F599232336658F00089511 /* sound-hijaiyah-8.mp3 */,
+				25F599212336654900089511 /* sound-hijaiyah-7.mp3 */,
+				25F5991F2336653000089511 /* sound-hijaiyah-6.mp3 */,
+				25F5991D2336650800089511 /* sound-hijaiyah-5.mp3 */,
+				25F5991B233664DB00089511 /* sound-hijaiyah-4.mp3 */,
+				25F59915233663AC00089511 /* sound-hijaiyah-1.mp3 */,
+				25F59917233663F100089511 /* sound-hijaiyah-2.mp3 */,
+				25F599192336641100089511 /* sound-hijaiyah-3.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		258F6E37230052FD001E341E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				258F6E382300531E001E341E /* SegueConstants.swift */,
+				25124CBE231176C3001E229A /* ColourConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		258F6E3A23005394001E341E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2512E72922F3A6D100D5010C /* LaunchScreen.storyboard */,
+				2512E72C22F3A6D100D5010C /* Info.plist */,
+				2512E72722F3A6D100D5010C /* Assets.xcassets */,
+				258F6E3B2300539C001E341E /* Base */,
+				258F6E44230054CF001E341E /* LoadingView */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		258F6E3B2300539C001E341E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				258F6E3C23005401001E341E /* BaseViewController.swift */,
+				258F6E3E2300543B001E341E /* BasePagination.swift */,
+				258F6E4023005466001E341E /* BaseDAO.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		258F6E44230054CF001E341E /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				25124CC023147C47001E229A /* LoadingView.swift */,
+				25124CC123147C47001E229A /* LoadingView.xib */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		258F6E4B230059C6001E341E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				258F6E4C230059F0001E341E /* MainCell.swift */,
+				258F6E4D230059F0001E341E /* MainCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		259B35DB233BC05200B9B515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259B35E5233BC05200B9B515 /* SQLite.framework */,
+				259B35E7233BC05200B9B515 /* SQLiteTests iOS.xctest */,
+				259B35E9233BC05200B9B515 /* SQLite.framework */,
+				259B35EB233BC05200B9B515 /* SQLiteTests Mac.xctest */,
+				259B35ED233BC05200B9B515 /* SQLite.framework */,
+				259B35EF233BC05200B9B515 /* SQLiteTests tvOS.xctest */,
+				259B35F1233BC05200B9B515 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259B35F7233C112B00B9B515 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				259B3609233EB3B300B9B515 /* IqrokuDB.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		259B360B233EBE6300B9B515 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				259B360C233EBE8D00B9B515 /* iqrokuDB.sqlite3 */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		259B361523404B9300B9B515 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				259B361623404BAF00B9B515 /* Iqro.swift */,
+				2526AE07234D30B4003C79BF /* config.swift */,
+				256E89AD2355209200A9D192 /* iqroPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25F5994F23381C4F00089511 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				25F5995023381C6D00089511 /* Settings.storyboard */,
+				25F5995123381C6D00089511 /* SettingsPresenter.swift */,
+				25F5995223381C6D00089511 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D186D04A7CEB09C14476A919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2542E6132336480600CAA895 /* AVFoundation.framework */,
+				68BE84AEF9E22E348C2630DB /* Pods_iQroku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1ED29910165678F315BB556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB18BAD4EA05AF15403C9CA /* Pods-iQroku.debug.xcconfig */,
+				647AB3BB8E7F47A7A1FCD44C /* Pods-iQroku.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2512E71922F3A6CE00D5010C /* iQroku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2512E72F22F3A6D100D5010C /* Build configuration list for PBXNativeTarget "iQroku" */;
+			buildPhases = (
+				D8934487E40EAC41F32FBDFE /* [CP] Check Pods Manifest.lock */,
+				2512E71622F3A6CE00D5010C /* Sources */,
+				2512E71722F3A6CE00D5010C /* Frameworks */,
+				2512E71822F3A6CE00D5010C /* Resources */,
+				2512E73222F3A6F200D5010C /* SwifLint Run Script */,
+				BC39F28685C8030A76A1FC6D /* [CP] Embed Pods Frameworks */,
+				259B35C1233BBEDA00B9B515 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259B35F5233BC06600B9B515 /* PBXTargetDependency */,
+			);
+			name = iQroku;
+			productName = iQroku;
+			productReference = 2512E71A22F3A6CE00D5010C /* iQroku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2512E71222F3A6CE00D5010C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = NDS;
+				TargetAttributes = {
+					2512E71922F3A6CE00D5010C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2512E71522F3A6CE00D5010C /* Build configuration list for PBXProject "iQroku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = 2512E71122F3A6CE00D5010C;
+			productRefGroup = 2512E71B22F3A6CE00D5010C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 259B35DB233BC05200B9B515 /* Products */;
+					ProjectRef = 259B35DA233BC05200B9B515 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2512E71922F3A6CE00D5010C /* iQroku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		259B35E5233BC05200B9B515 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 259B35E4233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35E7233BC05200B9B515 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 259B35E6233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35E9233BC05200B9B515 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 259B35E8233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35EB233BC05200B9B515 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 259B35EA233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35ED233BC05200B9B515 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 259B35EC233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35EF233BC05200B9B515 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 259B35EE233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		259B35F1233BC05200B9B515 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 259B35F0233BC05200B9B515 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2512E71822F3A6CE00D5010C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F599222336654900089511 /* sound-hijaiyah-7.mp3 in Resources */,
+				25F599422336698700089511 /* sound-hijaiyah-22.mp3 in Resources */,
+				2512E72B22F3A6D100D5010C /* LaunchScreen.storyboard in Resources */,
+				25F59928233665B200089511 /* sound-hijaiyah-10.mp3 in Resources */,
+				25F59916233663AC00089511 /* sound-hijaiyah-1.mp3 in Resources */,
+				25F5991E2336650800089511 /* sound-hijaiyah-5.mp3 in Resources */,
+				2519F63A232AF98A005DF4D9 /* WriteHijaiyah.storyboard in Resources */,
+				25F5994E23366A1000089511 /* sound-hijaiyah-28.mp3 in Resources */,
+				25F5993C2336692C00089511 /* sound-hijaiyah-19.mp3 in Resources */,
+				25F599302336676B00089511 /* sound-hijaiyah-13.mp3 in Resources */,
+				25F599202336653000089511 /* sound-hijaiyah-6.mp3 in Resources */,
+				2542E6072335C91800CAA895 /* SayHijaiyah.storyboard in Resources */,
+				25F5992A233665C600089511 /* sound-hijaiyah-11.mp3 in Resources */,
+				25F59932233667DC00089511 /* sound-hijaiyah-14.mp3 in Resources */,
+				256E89CA235A071100A9D192 /* IqroDetailCell.xib in Resources */,
+				25F59948233669C200089511 /* sound-hijaiyah-25.mp3 in Resources */,
+				25F5994C233669F600089511 /* sound-hijaiyah-27.mp3 in Resources */,
+				2519F62E232938AD005DF4D9 /* JuzAmmaDetail.storyboard in Resources */,
+				2542E6122336061300CAA895 /* SayHijaiyahCell.xib in Resources */,
+				259B360E233ED05B00B9B515 /* iqrokuDB.sqlite3 in Resources */,
+				25F59926233665A400089511 /* sound-hijaiyah-9.mp3 in Resources */,
+				25F599402336697600089511 /* sound-hijaiyah-21.mp3 in Resources */,
+				25F5995323381C6D00089511 /* Settings.storyboard in Resources */,
+				2519F63F232B0371005DF4D9 /* Quite Magical - TTF.ttf in Resources */,
+				25F59938233668F000089511 /* sound-hijaiyah-17.mp3 in Resources */,
+				2519F63523293D10005DF4D9 /* JuzAmmaDetailCell.xib in Resources */,
+				250C86A7231F1D9500618CCB /* Iqro.storyboard in Resources */,
+				2512E72822F3A6D100D5010C /* Assets.xcassets in Resources */,
+				25F5991A2336641100089511 /* sound-hijaiyah-3.mp3 in Resources */,
+				258F6E4F230059F0001E341E /* MainCell.xib in Resources */,
+				251688DA232BDF8400126558 /* WriteHijaiyahCell.xib in Resources */,
+				25F59934233667FF00089511 /* sound-hijaiyah-15.mp3 in Resources */,
+				250C86AE231FF57700618CCB /* IqroCell.xib in Resources */,
+				256E89CF235A075800A9D192 /* CustomPopup.xib in Resources */,
+				25F5994A233669D800089511 /* sound-hijaiyah-26.mp3 in Resources */,
+				25F5992C233665D800089511 /* sound-hijaiyah-12.mp3 in Resources */,
+				2519F621232686AA005DF4D9 /* JuzAmma.storyboard in Resources */,
+				25F5993E2336694000089511 /* sound-hijaiyah-20.mp3 in Resources */,
+				25F59944233669A000089511 /* sound-hijaiyah-23.mp3 in Resources */,
+				250C868A231A595000618CCB /* Localizable.strings in Resources */,
+				2519F62923268933005DF4D9 /* JuzAmmaCell.xib in Resources */,
+				25124CC323147C48001E229A /* LoadingView.xib in Resources */,
+				258F6E432300547F001E341E /* Default-568h@2x.png in Resources */,
+				25F59918233663F100089511 /* sound-hijaiyah-2.mp3 in Resources */,
+				25F599242336658F00089511 /* sound-hijaiyah-8.mp3 in Resources */,
+				25F5993A2336690700089511 /* sound-hijaiyah-18.mp3 in Resources */,
+				256E89B5235A049D00A9D192 /* IqroDetail.storyboard in Resources */,
+				25F599362336681800089511 /* sound-hijaiyah-16.mp3 in Resources */,
+				250C867D231A580400618CCB /* Main.storyboard in Resources */,
+				25F5991C233664DC00089511 /* sound-hijaiyah-4.mp3 in Resources */,
+				25F59946233669B600089511 /* sound-hijaiyah-24.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2512E73222F3A6F200D5010C /* SwifLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwifLint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		BC39F28685C8030A76A1FC6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQroku/Pods-iQroku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQroku/Pods-iQroku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iQroku/Pods-iQroku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8934487E40EAC41F32FBDFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iQroku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2512E71622F3A6CE00D5010C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2542E6112336061300CAA895 /* SayHijaiyahCell.swift in Sources */,
+				2519F630232938AD005DF4D9 /* JuzAmmaDetailViewController.swift in Sources */,
+				2519F62823268933005DF4D9 /* JuzAmmaCell.swift in Sources */,
+				256E89C5235A058A00A9D192 /* IqroDetailCell.swift in Sources */,
+				25124CBF231176C3001E229A /* ColourConstants.swift in Sources */,
+				250C86A8231F1D9500618CCB /* IqroPresenter.swift in Sources */,
+				2542E6092335C91800CAA895 /* SayHijaiyahViewController.swift in Sources */,
+				250C86A9231F1D9500618CCB /* IqroViewController.swift in Sources */,
+				2526ADF42348DE8A003C79BF /* UIView+Nib.swift in Sources */,
+				250C8696231A5E2600618CCB /* LocalizationSystem.swift in Sources */,
+				2512E71E22F3A6CE00D5010C /* AppDelegate.swift in Sources */,
+				250F9D3423215D0000F3CF0F /* IqroDetailViewController.swift in Sources */,
+				251688D9232BDF8300126558 /* WriteHijaiyahCell.swift in Sources */,
+				2542E6082335C91800CAA895 /* SayHijaiyahPresenter.swift in Sources */,
+				25124CC223147C48001E229A /* LoadingView.swift in Sources */,
+				251688DF232FD87D00126558 /* Brush.swift in Sources */,
+				2519F63423293D10005DF4D9 /* JuzAmmaDetailCell.swift in Sources */,
+				250F9D3323215D0000F3CF0F /* IqroDetailPresenter.swift in Sources */,
+				2512E73922F3A97700D5010C /* MainPresenter.swift in Sources */,
+				258F6E4E230059F0001E341E /* MainCell.swift in Sources */,
+				256E89AE2355209200A9D192 /* iqroPage.swift in Sources */,
+				258F6E3F2300543B001E341E /* BasePagination.swift in Sources */,
+				2519F63C232AF98A005DF4D9 /* WriteHijaiyahViewController.swift in Sources */,
+				25F5995423381C6D00089511 /* SettingsPresenter.swift in Sources */,
+				2519F623232686AA005DF4D9 /* JuzAmmaViewController.swift in Sources */,
+				25F5995523381C6D00089511 /* SettingsViewController.swift in Sources */,
+				2512E73A22F3A97700D5010C /* MainViewController.swift in Sources */,
+				258F6E3D23005401001E341E /* BaseViewController.swift in Sources */,
+				251688E2232FD9A700126558 /* UIView+Draw.swift in Sources */,
+				2519F63B232AF98A005DF4D9 /* WriteHijaiyahPresenter.swift in Sources */,
+				258F6E392300531E001E341E /* SegueConstants.swift in Sources */,
+				259B360A233EB3B300B9B515 /* IqrokuDB.swift in Sources */,
+				2519F62F232938AD005DF4D9 /* JuzAmmaDetailPresenter.swift in Sources */,
+				2526ADF62348E069003C79BF /* Object+ClassName.swift in Sources */,
+				259B361723404BAF00B9B515 /* Iqro.swift in Sources */,
+				2519F622232686AA005DF4D9 /* JuzAmmaPresenter.swift in Sources */,
+				25124CC6231492BE001E229A /* MainSection.swift in Sources */,
+				2526ADF22348DD84003C79BF /* CustomPopup.swift in Sources */,
+				250C86AD231FF57700618CCB /* IqroCell.swift in Sources */,
+				2526AE08234D30B4003C79BF /* config.swift in Sources */,
+				258F6E4123005466001E341E /* BaseDAO.swift in Sources */,
+				251688E0232FD87D00126558 /* SwiftyDraw.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259B35F5233BC06600B9B515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 259B35F4233BC06600B9B515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		250C867F231A580400618CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250C868F231A5B3300618CCB /* Base */,
+				250C8691231A5B7200618CCB /* id */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		250C868C231A595000618CCB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250C868B231A595000618CCB /* id */,
+				250C868D231A595200618CCB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2512E72922F3A6D100D5010C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250C8692231A5B7900618CCB /* Base */,
+				250C8694231A5B8700618CCB /* id */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		256E89B7235A049D00A9D192 /* IqroDetail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E89B8235A04A700A9D192 /* Base */,
+				256E89BA235A04EB00A9D192 /* id */,
+			);
+			name = IqroDetail.storyboard;
+			sourceTree = "<group>";
+		};
+		256E89CC235A071100A9D192 /* IqroDetailCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E89CD235A071E00A9D192 /* Base */,
+				256E89CE235A073600A9D192 /* id */,
+			);
+			name = IqroDetailCell.xib;
+			sourceTree = "<group>";
+		};
+		256E89D1235A075800A9D192 /* CustomPopup.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E89D2235A075F00A9D192 /* Base */,
+				256E89D3235A076F00A9D192 /* id */,
+			);
+			name = CustomPopup.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2512E72D22F3A6D100D5010C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2512E72E22F3A6D100D5010C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2512E73022F3A6D100D5010C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB18BAD4EA05AF15403C9CA /* Pods-iQroku.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24YPMMYP8;
+				INFOPLIST_FILE = iQroku/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nds.apps.iQroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2512E73122F3A6D100D5010C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647AB3BB8E7F47A7A1FCD44C /* Pods-iQroku.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24YPMMYP8;
+				INFOPLIST_FILE = iQroku/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nds.apps.iQroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2512E71522F3A6CE00D5010C /* Build configuration list for PBXProject "iQroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2512E72D22F3A6D100D5010C /* Debug */,
+				2512E72E22F3A6D100D5010C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2512E72F22F3A6D100D5010C /* Build configuration list for PBXNativeTarget "iQroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2512E73022F3A6D100D5010C /* Debug */,
+				2512E73122F3A6D100D5010C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2512E71222F3A6CE00D5010C /* Project object */;
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1dX-N7-XUl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="5We-7B-J9h">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" title="Settings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1dX-N7-XUl" customClass="SettingsViewController" customModule="iQroku" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1aI-fb-72i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-io-Opy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="80"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z1t-py-iz2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTm-H3-qOk">
+                                                <rect key="frame" x="0.0" y="39.5" width="375" height="0.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="0.5" id="O8w-NU-c39"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bahasa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ul0-eX-VFC">
+                                                <rect key="frame" x="26.5" y="11.5" width="50.5" height="17.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Indonesia" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ToM-Sq-sKl">
+                                                <rect key="frame" x="250.5" y="11" width="70" height="18"/>
+                                                <color key="textColor" red="0.63529411764705879" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="NTm-H3-qOk" secondAttribute="bottom" id="0uG-1t-FAk"/>
+                                            <constraint firstItem="Ul0-eX-VFC" firstAttribute="leading" secondItem="Z1t-py-iz2" secondAttribute="leading" constant="26.5" id="62M-jw-pHQ"/>
+                                            <constraint firstItem="NTm-H3-qOk" firstAttribute="leading" secondItem="Z1t-py-iz2" secondAttribute="leading" id="6b6-5y-5Uu"/>
+                                            <constraint firstItem="ToM-Sq-sKl" firstAttribute="centerY" secondItem="Z1t-py-iz2" secondAttribute="centerY" id="MrU-Ks-kNq"/>
+                                            <constraint firstAttribute="trailing" secondItem="ToM-Sq-sKl" secondAttribute="trailing" constant="54.5" id="Sv4-JB-zHG"/>
+                                            <constraint firstItem="Ul0-eX-VFC" firstAttribute="centerY" secondItem="Z1t-py-iz2" secondAttribute="centerY" id="V2N-KJ-AKk"/>
+                                            <constraint firstAttribute="trailing" secondItem="NTm-H3-qOk" secondAttribute="trailing" id="eAD-Gj-xAz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vac-hP-khF">
+                                        <rect key="frame" x="0.0" y="40" width="375" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHY-5g-tvu">
+                                                <rect key="frame" x="26.5" y="5" width="80" height="30"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <state key="normal" title="Hapus Data">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TuC-3O-6eJ" userLabel="Line">
+                                                <rect key="frame" x="0.0" y="39.5" width="375" height="0.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="0.5" id="t1s-1g-Ocj"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="TuC-3O-6eJ" firstAttribute="leading" secondItem="vac-hP-khF" secondAttribute="leading" id="4U2-Uy-UWz"/>
+                                            <constraint firstAttribute="bottom" secondItem="TuC-3O-6eJ" secondAttribute="bottom" id="HPl-v3-a9q"/>
+                                            <constraint firstItem="cHY-5g-tvu" firstAttribute="leading" secondItem="vac-hP-khF" secondAttribute="leading" constant="26.5" id="RCy-Ik-q9q"/>
+                                            <constraint firstAttribute="trailing" secondItem="TuC-3O-6eJ" secondAttribute="trailing" id="gI4-Li-AwT"/>
+                                            <constraint firstItem="cHY-5g-tvu" firstAttribute="centerY" secondItem="vac-hP-khF" secondAttribute="centerY" id="zV0-GP-9bu"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="SpF-xL-kLM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="DEK-3G-Vg1" firstAttribute="trailing" secondItem="zEn-io-Opy" secondAttribute="trailing" id="6Tp-bi-EzX"/>
+                            <constraint firstItem="zEn-io-Opy" firstAttribute="leading" secondItem="DEK-3G-Vg1" secondAttribute="leading" id="VEn-uH-aVZ"/>
+                            <constraint firstItem="zEn-io-Opy" firstAttribute="top" secondItem="DEK-3G-Vg1" secondAttribute="top" id="lCL-h1-9jx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DEK-3G-Vg1"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="47X-cv-L7e" appends="YES" id="nZg-Uq-5L0"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldLanguage" destination="ToM-Sq-sKl" id="OMb-zR-WIk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDV-u4-9W0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="47X-cv-L7e">
+                    <connections>
+                        <action selector="superViewTapped:" destination="1dX-N7-XUl" id="edF-zc-qSh"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="-0.44977511244377816"/>
+        </scene>
+    </scenes>
+</document>

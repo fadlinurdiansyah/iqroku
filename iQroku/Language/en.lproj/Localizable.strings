@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  iQroku
+
+  Created by NDS on 31/08/19.
+  Copyright © 2019 NDS. All rights reserved.
+*/
+
+"menu01_text"   = "Learn IQRO";
+"menu02_text"   = "Write Hijaiyah";
+"menu03_text"   = "Learn Juz`Amma";
+"menu04_text"   = "Say Hijaiyah";
+"menu05_text"   = "Setting";
+"popup_desc_goto"    = "Horee... You have finished reading until the page";
+"popup_desc_complete" = "Yeeay... You have finished reading all the pages on iqro ";
+"popup_btn_close" = "Close";
+"popup_btn_next_page" = "Next Page";
+"popup_btn_cancel" =  "No, Thank You";
+"popup_desc_notif" = "Yeeaay... You have finished reading the page";
+

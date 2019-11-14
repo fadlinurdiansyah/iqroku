@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  iQroku
+
+  Created by NDS on 31/08/19.
+  Copyright © 2019 NDS. All rights reserved.
+*/
+
+"menu01_text"   = "Belajar IQRO";
+"menu02_text"   = "Menulis Huruf Hijaiyah";
+"menu03_text"   = "Belajar Juz`Amma";
+"menu04_text"   = "Mengucap Huruf Hijaiyah";
+"menu05_text"   = "Pengaturan";
+"popup_desc_goto"    = "Horee... Kamu telah selesai membaca sampai halaman";
+"popup_desc_complete" = "Yeeay... Kamu telah selesai membaca semua halaman pada iqro ";
+"popup_btn_close" = "Tutup";
+"popup_btn_next_page" = "Halaman Selanjutnya";
+"popup_btn_cancel" =  "Tidak, Terima Kasih";
+"popup_desc_notif" = "Yeeaay... Kamu telah selesai membaca halaman";
